@@ -34,7 +34,7 @@ To specify a specific region use the `-r` option. See `$ eb create -h` for all t
 
 This will build package your application and build your Dockerfile image. Some points to watch for:
 
-* `EXPOSE` must be set to `8080`
+* `EXPOSE` must be set in the Dockerfile to whichever port your app is listening on.
 
 **Go Runtime**
 
